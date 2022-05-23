@@ -13,6 +13,7 @@
   "ps1_username": "root",
   "repo": "https://github.com/Larkify/TerminalWebsite",
   "resume_url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Resume.pdf",
+  "donate_urls": {},
   "colors": {
     "light": {
       "background": "#FBF1C9",
