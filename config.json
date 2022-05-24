@@ -1,17 +1,16 @@
 {
   "readmeUrl": "https://raw.githubusercontent.com/cveinnt/cveinnt/master/README.md",
-  "title": "LarkX",
-  "name": "Kiran",
-  "ascii": "Kiran",
+  "title": "LiveTerm",
+  "name": "John Doe",
+  "ascii": "liveterm",
   "social": {
-    "github": "https://github.com/Larkify",
-    "discord": "https://discord.gg/NctasgW",
-    "youtube": "https://www.youtube.com/channel/UCyrArdVIBzh3KJn0yTd2OAw"
+    "github": "github",
+    "linkedin": "linkedin"
   },
-  "email": "contact@larkx.xyz",
-  "ps1_hostname": "larkx.xyz",
-  "ps1_username": "root",
-  "repo": "https://github.com/Larkify/TerminalWebsite",
+  "email": "contact@email.com",
+  "ps1_hostname": "liveterm",
+  "ps1_username": "visitor",
+  "repo": "https://github.com/Cveinnt/LiveTerm",
   "resume_url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Resume.pdf",
   "donate_urls": {
     "paypal": "https://paypal.me/cveinnt",
