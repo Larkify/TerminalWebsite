@@ -5,7 +5,9 @@
   "ascii": "Hey, I'm Kirran",
   "social": {
     "github": "github",
-    "linkedin": "linkedin"
+    "linkedin": "linkedin",
+    "youtube": "youtube",
+    "discord": "discord"
   },
   "email": "contact@larkx.xyz",
   "ps1_hostname": "larkx.xyz",
