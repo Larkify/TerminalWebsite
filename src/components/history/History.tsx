@@ -14,7 +14,7 @@ export const History: React.FC<{ history: Array<HistoryInterface> }> = ({
               <Ps1 />
             </div>
 
-            <div className="flex-grow">{entry.command}</div>
+            <div style={{ color: "white"}} className="flex-grow">{entry.command}</div>
           </div>
 
           <p

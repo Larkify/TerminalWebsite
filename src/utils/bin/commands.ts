@@ -23,12 +23,9 @@ export const help = async (args: string[]): Promise<string> => {
 
 // About
 export const about = async (args: string[]): Promise<string> => {
-  return `Hi, I am ${config.name}. 
-Welcome to my website!
-More about me:
-'sumfetch' - short summary.
-'resume' - my latest resume.
-'readme' - my github readme.`;
+  return `<strong>Hey, I'm ${config.name}</strong>. 
+This is my super-cool website, made to look as if you're SSH'd as a root user on a linux machin
+Check out some of the commands for you to play with by typing 'help'.`;
 };
 
 // Contact
@@ -68,16 +65,11 @@ export const whoami = async (args: string[]): Promise<string> => {
 };
 
 export const ls = async (args: string[]): Promise<string> => {
-  return `a
-bunch
-of
-fake
-directories`;
+  return `no directories here...`;
 };
 
 export const cd = async (args: string[]): Promise<string> => {
-  return `unfortunately, i cannot afford more directories.
-if you want to help, you can type 'donate'.`;
+  return `you were probably expecting something to happen... sorry.`;
 };
 
 export const date = async (args: string[]): Promise<string> => {
@@ -117,7 +109,7 @@ export const banner = (args?: string[]): string => {
   ╚═╝░░╚═╝╚══════╝░░░╚═╝░░░░╚╝    ╚═╝░░░╚═╝░░░░░╚═╝    ╚═╝░░╚═╝╚═╝╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░╚══╝
 
 Type 'help' to see the list of available commands.
-Type 'sumfetch' to display summary.
-Type 'repo' or click <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.repo}" target="_blank">here</a></u> for the Github repository.
+Type 'github' for my github profile.
+Type 'discord' for a link to join my server.
 `;
 };
